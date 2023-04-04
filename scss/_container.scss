@@ -1,0 +1,19 @@
+.container {
+    max-width: $desktop-l;
+    padding: 0 4.2rem;
+    margin: 0 auto;
+  
+    @media (max-width: $desktop) {
+      // max-width: $tablet;
+      .container {
+        background-color: aqua;
+      }
+    }
+  
+    @media (min-width: $tablet) {
+        .container {
+            background-color: aquamarine;
+        }
+    }
+  }
+  

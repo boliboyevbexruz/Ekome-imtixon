@@ -1,0 +1,447 @@
+  header {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 69px;
+  }
+  .header_home {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    align-items: center;
+
+    li {
+      list-style: none;
+    }
+
+    li a {
+      text-decoration: none;
+      padding: 1rem;
+      font-weight: 600;
+      font-style: 12px;
+      color: #1f2937;
+      transition: 0.5s ease;
+    }
+
+    a:hover {
+      color: crimson;
+    }
+  }
+  .header-imgs img{
+    padding: 0 5px;
+  }
+
+  .main-info {
+    display: flex;
+    justify-content: space-between;
+
+    .main-img {
+      background-image: url(../img/yashilcha.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 780px;
+      height: 800px;
+      border-radius: 0px;
+
+      .info-img1 {
+        margin-top: 130px;
+      }
+    }
+  }
+
+  .main-title {
+    margin-top: 300px;
+
+    h2 {
+      font-family: "SF Pro Rounded";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 96px;
+      line-height: 89.84%;
+      color: #5fd788;
+      width: 400px;
+    }
+
+    p {
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      color: #9ca3af;
+      width: 370px;
+      margin-top: 38px;
+    }
+  }
+
+  .table-info {
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+
+    h3 {
+      margin-top: 30px;
+      align-items: center;
+    }
+  }
+
+  .teg {
+    gap: 5px;
+    padding: 50px 75px 90px 85px;
+    width: 200px;
+    background: #f9fafb;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 20px;
+    transition: 0.5s ease;
+  }
+
+  .teg:hover {
+    background-color: #5fd788;
+  }
+
+  .tomizgich {
+    color: #5fd788;
+  }
+
+  .tomizgich:hover {
+    color: #ffff;
+  }
+
+  .table-big {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+
+    .table-img {
+      background-image: url(../img/bag1.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 450px;
+      height: 750px;
+    }
+
+    .table-title {
+      width: 573px;
+      padding: 0 20px;
+      text-align: right;
+    }
+
+    h2 {
+      font-family: "SF Pro Rounded";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 107.9%;
+      letter-spacing: 0.01em;
+      color: #5fd788;
+    }
+
+    p {
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      color: #9ca3af;
+      width: 300px;
+      margin-left: 265px;
+      padding: 32px 0;
+    }
+    .btn-info {
+      border: none;
+      width: 274px;
+      height: 40px;
+      background: #5fd788;
+      border-radius: 8px;
+      margin-right: 10px;
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-family: "Quicksand";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 97.9%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+
+    .blog-shop {
+      display: flex;
+    }
+
+    .gulcha {
+      position: absolute;
+      top: 2280px;
+    }
+
+    .blog-h2 {
+      position: absolute;
+      left: 630px;
+      top: 2530px;
+      font-family: "SF Pro Rounded";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 107.9%;
+      letter-spacing: 0.01em;
+      color: #5fd788;
+      margin-left: 50px;
+    }
+
+    .blog-btn {
+      position: absolute;
+      width: 274px;
+      height: 40px;
+      left: 630px;
+      top: 2600px;
+      background: #5fd788;
+      border-radius: 8px;
+      border: none;
+      margin-left: 50px;
+
+      a {
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    .bestrels {
+      top: 0;
+      position: absolute;
+      margin-left: -600px;
+    }
+
+    .zaybal-2 {
+      margin-left: 5px;
+      position: absolute;
+      margin-top: -120px;
+      padding: 13px 9px 10px 15px;
+      border-radius: 0px 20px;
+      background-color: #f5f1f1;
+
+      span {
+        text-align: center;
+        align-items: center;
+        position: absolute;
+        margin-left: 140px;
+        margin-top: -25px;
+        padding: 2px 12px;
+        color: #fff;
+        background: #5fd788;
+        border-radius: 10px;
+      }
+      .spn {
+        margin-left: 180px;
+      }
+    }
+    .zaybal-2 img {
+      margin-left: 300px;
+      margin-top: -50px;
+    }
+    h2 {
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 140%;
+      color: #1f2937;
+    }
+    p {
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      width: 238px;
+      color: #6b7280;
+    }
+  }
+
+  .food {
+    margin-top: 200px;
+
+    .food-blog {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 515px;
+      background-color: #5fd788;
+
+      .food-title {
+        padding: 100px;
+
+        h2 {
+          font-family: "SF Pro Rounded";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 119.4%;
+          letter-spacing: 0.01em;
+          height: 229px;
+          width: 470px;
+          color: #ffffff;
+        }
+        button {
+          width: 274px;
+          height: 40px;
+          left: 98px;
+          top: 2206px;
+          background: #fff;
+          border-radius: 8px;
+          border: none;
+          margin-top: 80px;
+
+          a {
+            font-family: "Quicksand";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 97.9%;
+            text-align: center;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #1f2937;
+          }
+        }
+      }
+    }
+  }
+
+  .zaybal2 {
+    position: absolute;
+    margin-top: -329px;
+
+    h2 {
+      font-family: "SF Pro Rounded";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 107.9%;
+      letter-spacing: 0.01em;
+      color: #5fd788;
+      padding-bottom: 50px;
+    }
+
+    button {
+      width: 274px;
+      height: 40px;
+      left: 94px;
+      top: 2708px;
+      background: #5fd788;
+      border-radius: 8px;
+      border: none;
+
+      a {
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .aaa h1 {
+    padding: 25px 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: "SF Pro Rounded";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 107.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #5fd788;
+  }
+
+  .fuud-main {
+    display: flex;
+    justify-content: space-around;
+
+    h2 {
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 140%;
+      width: 325px;
+      color: #5fd788;
+      padding: 20px 10px;
+    }
+
+    p {
+      padding: 20px 10px;
+      width: 325px;
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      color: #4b5563;
+    }
+  }
+  
+  footer {
+    width: 100%;
+    height: 228px;
+    background-color: #f3f4f6;
+
+    .footer-title {
+      display: flex;
+      text-align: center;
+      gap: 130px;
+      margin-left: 440px;
+
+      h2 {
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 135%;
+        text-align: center;
+        color: #9ca3af;
+      }
+      .f-h2 {
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 135%;
+        color: #5fd788;
+      }
+    }
+    .footer-p {
+      text-decoration: none;
+      display: flow-root;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 50px 0;
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 135%;
+      color: #6b7280;
+      height: 600px;
+    }
+  }
